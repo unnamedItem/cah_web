@@ -1,0 +1,24 @@
+// Custom Colors
+$color-primary:       #0275d8;
+$color-success:       #5cb85c;
+$color-info:          #5bc0de;
+$color-warning:       #f0ad4e;
+$color-danger:        #d9534f;
+$color-dark:          #292b2c;
+$color-light:         #f7f7f7;
+$color-secondary:     #798289;
+
+
+// Custom Theme
+$theme-colors: (
+    "primary":              $color-primary,
+    "success":              $color-success,
+    "info":                 $color-info,
+    "warning":              $color-warning,
+    "danger":               $color-danger,
+    "dark":                 $color-dark,
+    "light":                $color-light,
+    "secondary":            $color-secondary
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap'
